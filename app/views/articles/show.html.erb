@@ -1,4 +1,4 @@
-<h1><%= @article.title %></h1>
+<h1><%= @article.title.capitalize %></h1>
 <h2><%= @article.content %></h2>
 <%= link_to '  Articles  ', articles_path  %>
 <%= link_to "  edit  ", edit_article_path(@article)  %>

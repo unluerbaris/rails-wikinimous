@@ -1,3 +1,39 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  background-color: #162447;
+  color: #FFF0F5;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  border: solid black 1px;
+  margin: 50px auto;
+  background-color: #1b1b2f;
+  width: 50%;
+}
+
+a {
+  color: #e43f5a;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  &:hover {
+    color: #f63f5a;
+  }
+}
+
+.button {
+  background-color: #e43f5a;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 10px;
+  height: 50px;
+  width: 100px;
+  &:hover {
+    background-color: #f63f5a;
+    color: white;
+  }
+}
